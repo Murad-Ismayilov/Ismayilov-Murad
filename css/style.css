@@ -255,12 +255,112 @@ article{
 
 
 .intro-right-side article{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 200;
     color: #000;
     text-align: right;
     margin: -64px 26px 0 0;
 }
+
+.parent{
+
+    margin: 0 0 0 90px;
+
+}
+
+.intro-right{
+
+ 
+    margin: 0 0 0 300px;
+    
+}
+
+
+.introduction h2{
+
+    color: #000000;
+    font-size: 24px;
+    padding: 30px 0 0 0;
+}
+
+.introduction article{
+
+    color: #000000;
+    font-size: 15px;
+    
+}
+
+.introduction p{
+
+    color: #000000;
+    font-size: 15px;
+    margin: -19px 0 0 300px;
+    opacity: .7;
+    
+}
+
+.intro-right p{
+    color: #000000;
+    font-size: 15px;
+    margin: -19px 0 0 200px;
+    opacity: .7;
+}
+
+.left h1{
+
+    margin: 90px 0 0 90px;
+    color: #4353FF;
+    font-size: 22px;
+
+}
+
+.right h3{
+
+    margin: 10px 0 0 90px;
+    color: #000000;
+    font-size: 40px;
+
+}
+
+.right img{
+
+    margin: 270px 0 0 90px;
+
+
+}
+
+.left h2{
+
+    margin: 40px 0 0 90px;
+    font-size: 54px;
+
+
+
+}
+
+.left img{
+
+    margin: 0 0 0 90px;
+}
+
+.right .fa-chevron-left {
+    background-color: #000000;
+    padding: 20px 20px;
+    margin: 100px 0 0 600px;
+}
+
+.right .fa-chevron-right {
+    background-color: #000000;
+  
+}
+
+.right h4{
+    color: #000;
+ 
+    margin: 42px 0 -65px 18px;
+}
+
+/* TODO------------------------------------------------------*/
 
 @media(max-width:575px) {
     .parentdiv {
@@ -397,7 +497,7 @@ article{
 
 }
 
-/* TODO */
+/* TODO-----------------------------------------------------*/
 
 
 
