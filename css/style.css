@@ -300,6 +300,7 @@ article{
 }
 
 .intro-right p{
+
     color: #000000;
     font-size: 15px;
     margin: -19px 0 0 200px;
@@ -316,7 +317,7 @@ article{
 
 .right h3{
 
-    margin: 10px 0 0 90px;
+    margin: 10px 0 100px 90px;
     color: #000000;
     font-size: 40px;
 
@@ -326,15 +327,12 @@ article{
 
     margin: 270px 0 0 90px;
 
-
 }
 
 .left h2{
 
     margin: 40px 0 0 90px;
     font-size: 54px;
-
-
 
 }
 
@@ -346,7 +344,7 @@ article{
 .right .fa-chevron-left {
     background-color: #000000;
     padding: 20px 20px;
-    margin: 100px 0 0 600px;
+    margin: 30px 0 0 600px;
 }
 
 .right .fa-chevron-right {
@@ -356,9 +354,17 @@ article{
 
 .right h4{
     color: #000;
- 
-    margin: 42px 0 -65px 18px;
+    margin: -30px 0 -65px 90px;
+    font-size: 20px;
 }
+
+.right article{
+    color: #000;
+    margin: 100px 0 -65px 90px;
+    font-size: 20px;
+}
+
+
 
 /* TODO------------------------------------------------------*/
 
