@@ -344,7 +344,7 @@ article{
 .right .fa-chevron-left {
     background-color: #000000;
     padding: 20px 20px;
-    margin: 30px 0 0 600px;
+    margin: 0 0 0 600px;
 }
 
 .right .fa-chevron-right {
@@ -364,7 +364,32 @@ article{
     font-size: 20px;
 }
 
+.entrance-intro{
+    background-color: #000;
+    margin: 100px 0 0 0;
+}
 
+.left-intro{
+    margin: 250px 0 0 -800px;
+    color: #fff; 
+}
+
+.right-intro{
+    margin: 250px 0 0 200px;
+    color: #fff; 
+}
+
+.right-intro h1{
+    margin: 0 0 60px 0;
+    color: #fff; 
+    font-size: 20px;
+}
+
+.left-intro h1{
+    margin: 0 0 60px 0;
+    color: #fff; 
+    font-size: 20px;
+}
 
 /* TODO------------------------------------------------------*/
 
