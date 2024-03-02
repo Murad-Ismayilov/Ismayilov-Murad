@@ -49,11 +49,6 @@ header nav a {
 
 /* TODO Smart tv 1400px-uzu yuxari */
 
-.intro img{
-    width: 1200px;
-    height: 1000px;
-    margin: 0 0 0 70px;
-}
 
 
 /* INTRODUCTION START */
@@ -134,9 +129,11 @@ h5{
 }
 
 .logoipsumlar{
-    padding: 100px 0;
+    padding: 39px 33px;
    
 }
+
+
 
 
 .services-cards{
@@ -271,26 +268,13 @@ article{
 }
 
 
-.intro-right-side article{
-    font-size: 20px;
-    font-weight: 200;
-    color: #000;
-    text-align: right;
-    margin: -64px 26px 0 0;
-}
+
 
 .parent{
-
     margin: 0 0 0 90px;
-
 }
 
-.intro-right{
 
- 
-    margin: 0 0 0 300px;
-    
-}
 
 
 .introduction h2{
@@ -408,8 +392,77 @@ article{
     font-size: 20px;
 }
 
+.services-card img{
+    width: 300px;
+}
+
+.services-card .karts img{
+    width: 100px;
+}
+
+.services-card .karts:nth-child(2){
+    display: none;
+}
+
+.services-card .kards:nth-child(3){
+    display: none;
+}
+
+.services-cards .cards:nth-child(2),
+.services-cards .cards:nth-child(3){
+    display: none;
+}
+
+.services-card .kards img{
+    width: 270px;
+}
+
+.entrance{
+    background-color: #000;
+}
+
+h3{
+    color: #4353FF;
+}
+
+.div-right article{
+        margin: 0 0 0 -80px;
+}
+
+.div-right .h4{
+    color: #ffffff;
+    font-size: 22px;
+    margin: 33px 0 0 -86px;
+}
+
+.div-right p{
+    color: #fff;
+    margin: 18px 0 0 -84px;
+}
+
+.intro-right{
+    margin: 0 0 0 0;
+}
 
 
+
+.intro-right-side article{
+    font-size: 20px;
+    font-weight: 200;
+    color: #000;
+    text-align: right;
+    margin: 46px 26px -9px 0;
+}
+
+.h5{
+    color: #000;
+}
+
+.intro img{
+    width: 361px;
+    height: 227px;
+    margin: 34px 0 0 6px;
+}
 
 /* TODO------------------------------------------------------*/
 
@@ -430,6 +483,20 @@ article{
         margin: 0 0;
     }
     
+    .div-left h2{
+        color: #FF8A56;
+        margin: 0 0 0 30px;
+    }
+    
+    .div-left h4{
+        
+        margin: 10px 0 0 30px;
+    }
+    
+    .div-left p{
+        
+        margin: 10px 0 60px 30px;
+    }
 }
 
 @media(min-width:576px) {
@@ -447,11 +514,43 @@ article{
         margin: 0 0;
     }
 
+    .div-left h2{
+        color: #FF8A56;
+        margin: 0 0 0 30px;
+    }
+    
+    .div-left h4{
+        
+        margin: 10px 0 0 30px;
+    }
+    
+    .div-left p{
+        
+        margin: 10px 0 60px 30px;
+    }
+
 }
 
 @media(min-width:768px) {
     .parentdiv {
         max-width: 100%;
+    }
+
+    .intro-right{
+        margin: 0 0 0 300px;
+    }
+
+
+    .services-card img{
+        width: 410px;
+    }
+    
+    .services-card .kards img{
+        width: 270px;
+    }
+
+    .services-card .karts img{
+        width: 410px;
     }
 
     .services h1{
@@ -512,7 +611,28 @@ article{
     .div .logo:nth-child(3){
         display: block ;
     }
+
+    .div-left h4{
+        margin: 35px 0 0 0px;
+    }
+
+    .div-left p{
+        margin: 10px 0 60px 0;
+    }
+
+    .intro-right-side article{
+        font-size: 20px;
+        font-weight: 200;
+        color: #000;
+        text-align: right;
+        margin: -64px 26px 0 0;
+    }
     
+    .intro img{
+        width: 1200px;
+        height: 1000px;
+        margin: 0 0 0 70px;
+    }
    
 
 }
@@ -521,6 +641,30 @@ article{
 
      .logoipsumlar{
         padding: 29px 0 200px 0;
+    }
+
+    .services-card img{
+        width: 410px;
+    }
+    
+    .services-card .kards img{
+        width: 270px;
+    }
+
+    .services-card .karts img{
+        width: 410px;
+    }
+
+    .services-card .karts{
+        display: inline !important;
+    }
+
+    .services-card .cards{
+        display: inline !important;
+    }
+
+    .services-cards .kards{
+        display: inline !important;
     }
 
     .services-cards .card{
@@ -544,6 +688,14 @@ article{
 
     .div .logo{
         display: inline !important;
+    }
+
+    .div-left h4{
+        margin: 35px 0 0 0px;
+    }
+
+    .div-left p{
+        margin: 10px 0 60px 0;
     }
 
     .services-cards .card{
@@ -630,12 +782,73 @@ article{
         margin: 0 30px;
     }
     
+    .intro-right-side article{
+        font-size: 20px;
+        font-weight: 200;
+        color: #000;
+        text-align: right;
+        margin: -64px 26px 0 0;
+    }
+
+    .intro img{
+        width: 1200px;
+        height: 1000px;
+        margin: 0 0 0 70px;
+    }
+    
+    .intro-right{
+        margin: 0 0 0 300px;
+    }
+
 
 }
 
 @media(min-width:1200px) {
     .parentdiv {
         max-width: 100%;
+    }
+
+    .intro-right{
+        margin: 0 0 0 300px;
+    }
+
+
+    .intro-right-side article{
+        font-size: 20px;
+        font-weight: 200;
+        color: #000;
+        text-align: right;
+        margin: -64px 26px 0 0;
+    }
+
+    .intro img{
+        width: 1200px;
+        height: 1000px;
+        margin: 0 0 0 70px;
+    }
+
+    .services-card .karts{
+        display: inline !important;
+    }
+
+    .services-card .kards{
+        display: inline !important;
+    }
+
+    .services-cards .cards{
+        display: inline !important;
+    }
+
+    .services-card img{
+        width: 410px;
+    }
+    
+    .services-card .karts img{
+        width: 410px;
+    }
+    
+    .services-card .kards img{
+        width: 270px;
     }
 
     .services-cards .card{
@@ -664,6 +877,14 @@ article{
         /* TODO align-items: center; yuxarıdan aşağıya doğru düz mərkəzə çəkir */
     
         margin: 0 30px;
+    }
+
+    .div-left h4{
+        margin: 35px 0 0 0px;
+    }
+
+    .div-left p{
+        margin: 10px 0 60px 0;
     }
     
 
