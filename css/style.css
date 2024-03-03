@@ -464,6 +464,30 @@ h3{
     margin: 34px 0 0 6px;
 }
 
+.son-hisse{
+    background-color: #000;
+}
+
+.son-left h1{
+    font-size: 30px;
+    margin: 0 0 0 60px;
+    color: #fff;
+
+}
+
+.son-left h3{
+    font-size: 25px;
+    margin: 20px 0 0 60px;
+    color: #4353FF;
+
+}
+
+.son-left article{
+    margin: 20px 0 0 60px;
+}
+
+
+
 /* TODO------------------------------------------------------*/
 
 
