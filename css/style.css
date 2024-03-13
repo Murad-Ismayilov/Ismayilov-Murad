@@ -475,6 +475,14 @@ h3{
 
 }
 
+.son-right .son-card h1{
+    font-size: 18px;
+    margin: 0 84px 0 0;
+    color: #fff;
+    text-align: right;
+
+}
+
 .son-left h3{
     font-size: 25px;
     margin: 20px 0 0 60px;
@@ -484,6 +492,22 @@ h3{
 
 .son-left article{
     margin: 20px 0 0 60px;
+}
+
+.son-left h1{
+    color: #fff;
+    font-size: 44px;
+}
+
+.son-left h3{
+    color: #4353FF;
+    font-size: 40px;
+}
+
+.son-right h1{
+    color: #fff;
+    font-size: 44px;
+    margin: 12 0px 0 0 30px;
 }
 
 
@@ -662,6 +686,15 @@ h3{
 }
 
 @media(min-width:992px) {
+
+    .son-div{
+        max-width: 100%;
+        background-color: #000;
+    }
+
+    .son-section{
+        display: flex;
+    }
 
      .logoipsumlar{
         padding: 29px 0 200px 0;
